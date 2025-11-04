@@ -26,6 +26,12 @@ public abstract class Vehicle
     {
         return price*days;
     }
+    
+    public override string ToString()
+    {
+        return $"{GetVehicleType()} | {registrationNumber} | {model} | {manufacturer} | {price} | {(isAvailable ? "Available" : "Unavailable")}";
+    }
+
 
 
 

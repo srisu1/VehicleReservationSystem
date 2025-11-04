@@ -7,9 +7,9 @@ public class User
 {
     public string name { get; set; }
     public string email { get; set; }
-    public int phoneNumber { get; set; }
+    public string phoneNumber { get; set; }
 
-    public User(string Name, string Email, int PhoneNumber)
+    public User(string Name, string Email, string PhoneNumber)
     {
         name = Name;
         email = Email;

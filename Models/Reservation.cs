@@ -14,7 +14,7 @@ public class Reservation
         vehicle = VehicleName;
         numOfDays= NumOfDays;
         totalCost = vehicle.CalculateRentalCosts(numOfDays);
-        vehicle.isAvailable = false;
+        
     }
 
     public override string ToString()
